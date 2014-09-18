@@ -11,7 +11,7 @@
          *
          * 
          */
-        public function testGetRequestCallbackSingle() {
+        public function testDo() {
             try {
                 $this->assertTrue(true);
             } catch(Exception $e) {
