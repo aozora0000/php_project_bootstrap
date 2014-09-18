@@ -20,3 +20,13 @@ LICENCE_MARK
 ## License
 
 [LICENSE](LICENSE) file for details.
+
+## Develop
+```
+npm install
+gulp composer-init
+
+~~~~~
+
+gulp test
+```
