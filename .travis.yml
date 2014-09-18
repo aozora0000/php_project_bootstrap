@@ -1,0 +1,13 @@
+language: php
+php:
+- 5.3
+- 5.4
+- 5.5
+- hhvm
+script:
+- composer install
+- ./vendor/bin/phpunit --testdox ./tests
+notifications:
+  hipchat:
+    rooms:
+      secure: fAnbDlW6fIw3J+n+t8Azsvd9i7X1r9/IhDY/0+tlABUVA3SUPVTpW0u+v3GvlQyJQcMabDztxZMqMxRj7O4ETEhLhDHxWPLTCg81r0exzGHOMjy+p1jyPnbiDhBJVX1E5hij3jSz093eTbgdrSsrCYCAPt4QVTbvrcjjxHLPUTU=
